@@ -1,0 +1,17 @@
+model: 'ViT'
+img_size: 32
+patch_size: 4
+embed_dim: 128
+num_heads: 8
+num_layers: 8
+mlp_hidden_dim: 256
+
+loss: 'cross_entropy'
+
+optimizer: 'Adam'
+
+epoch: 501
+lr: 0.001
+weight_decay: 0.00002
+batch_size: 128
+data_path: 'data'
